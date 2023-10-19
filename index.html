@@ -10,32 +10,33 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/temp.css">
+    <script src="js/main.js"></script>
     <title>Pilot Safety</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg container-fluid glass-morphism">
       <div class="container-fluid">
-            <h1 class="navbar-brand" href="#">Pilot Safety</h1>
+        <h1 class="navbar-brand" href="#">Pilot Safety</h1>
         <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                 <li class="nav-item"><a class="nav-link" href="#Pre-FlightChecks">Pre-Flight Checks</a></li>
-                   <li class="nav-item"><a class="nav-link" href="#In-FlightChecks">In-Flight Checks</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#Post-FlightChecks">Post-Flight Checks</a></li>
-                   <li class="nav-item"><a class="nav-link" href="#ThingsToConsider">Things to Consider</a></li>
-                   <li class="nav-item"><a class="nav-link" href="#HelpfulLinks">Helpful Links</a></li>
-                </ul>
-            </div>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#Pre-FlightChecks">Pre-Flight Checks</a></li>
+            <li class="nav-item"><a class="nav-link" href="#In-FlightChecks">In-Flight Checks</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Post-FlightChecks">Post-Flight Checks</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ThingsToConsider">Things to Consider</a></li>
+            <li class="nav-item"><a class="nav-link" href="#HelpfulLinks">Helpful Links</a></li>
+          </ul>
         </div>
+      </div>
     </nav>
-
-  <main>
-    <div class="cloudBackground">
-      <div class="cloudContainer1">
-        <div class="cloud"></div>
-      </div>
-      <div class="cloudContainer2">
-        <div class="cloud"></div>
-      </div>
+    
+    <main>
+      <div class="cloudBackground">
+        <div class="cloudContainer1">
+          <div class="cloud"></div>
+        </div>
+        <div class="cloudContainer2">
+          <div class="cloud"></div>
+        </div>
       <div class="cloudContainer3">
         <div class="cloud"></div>
       </div>
@@ -48,46 +49,137 @@
     </div>
       <section id="Pre-FlightChecks" class="div_Section">
         <div class="container glass-morphism">
-            <h1>Pre-Flight Checks</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, sint earum commodi maxime ab error, expedita similique quo voluptas obcaecati vero, labore fugiat saepe laudantium iste facilis odit ipsum! Possimus?</p>
+          <h1>Pre-Flight Checks</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, sint earum commodi maxime ab error, expedita similique quo voluptas obcaecati vero, labore fugiat saepe laudantium iste facilis odit ipsum! Possimus?</p>
         </div>
-    </section>
-
-    <section id="In-FlightChecks" class="div_Section">
-      <div class=" glass-morphism">
+      </section>
+      
+      <section id="In-FlightChecks" class="div_Section">
+        <div class=" glass-morphism">
           <h1>In-Flight Checks</h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, sint earum commodi maxime ab error, expedita similique quo voluptas obcaecati vero, labore fugiat saepe laudantium iste facilis odit ipsum! Possimus?</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
       <section id="Post-FlightChecks" class="div_Section">
         <div class=" glass-morphism">
-            <h1>Post-Flight Checks</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, sint earum commodi maxime ab error, expedita similique quo voluptas obcaecati vero, labore fugiat saepe laudantium iste facilis odit ipsum! Possimus?</p>
+          <h1>Post-Flight Procedures</h1>
+          Post-flight procedures in single-engine propeller airplanes are essential for ensuring the safety, maintenance, and longevity of the aircraft. These procedures should be followed after every flight.
+          <div class="infoBox">
+          <button class="infoBtn" onclick="showShutdown()"><img class="arrowImg" id="arrowImgShutdown" src="images/arrow.png">Shutdown</button>
+          <div id="infoShutdown">
+            After landing and taxiing to the parking area, shut down the aircraft by following these steps:
+            <ul>
+              <li>
+                Throttle: Set to idle.
+              </li>
+              <li>
+                Mixture: Lean for ground operations (if applicable).
+              </li>
+              <li>
+                Ignition: Off (if applicable).
+              </li>
+              <li>
+                Avionics: Turn off all electrical equipment.
+              </li>
+              <li>
+                Master Switch: Off.
+              </li>
+              <li>
+                Fuel Selector: Off (if applicable).
+              </li>
+              <li>
+                Beacon Light: Off.
+            </li>
+            </ul>
+          </div>
+          <div>
+            <button class="infoBtn" onclick="showSecure()"><img class="arrowImg" id="arrowImgSecure" src="images/arrow.png">Secure the Aircraft</button>
+            <div id="infoSecure">
+              Ensure the aircraft is properly secured to prevent unauthorized access and protect it from environmental factors.
+              <ul>
+                <li>
+                  Chocking the wheels.
+                </li>
+                <li>
+                  Tying down the aircraft.
+                </li>
+                <li>
+                  Locking the doors and hatches.
+                </li>
+                <li>
+                  Covering the pitot tube and static ports.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <button class="infoBtn" onclick="showDamage()"><img class="arrowImg" id="arrowImgDamage" src="images/arrow.png">Check for Damage</button>
+            <div id="infoDamage"> 
+              Conduct a visual inspection of the aircraft for any signs of damage or wear and tear.
+              <ul>
+                <li>
+                  Aircraft surfaces (wings, tail, fuselage, etc.).
+                </li>
+                <li>
+                  Propeller and spinner.
+                </li>
+                <li>
+                  Landing gear and tires.
+                </li>
+                <li>
+                  Lights and lenses.
+                </li>
+                <li>
+                  Antennas.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <button class="infoBtn" onclick="showDocumentation()"><img class="arrowImg" id="arrowImgDocumentation" src="images/arrow.png">Documentation</button>
+            <div id="infoDocumentation">
+              Ensure all required documents are in the aircraft.
+              <ul>
+                <li>
+                  Airworthiness certificate.
+                </li>
+                <li>
+                  Registration.
+                </li>
+                <li>
+                  Pilot's license.
+                </li>
+                <li>
+                  Medical certificate.
+                </li>
+                <li>
+                  Weight and balance information.
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-  </section>
+        Remember that the specific procedures and checklist items may vary depending on the aircraft model, manufacturer's recommendations, and local regulations. Always refer to the aircraft's operating manual and consult with your flight instructor or a qualified maintenance professional for guidance specific to your aircraft type.
+        </div>
+      </section>
 
   <section id="ThingsToConsider" class="div_Section">
     <div class=" glass-morphism">
-        <h1>Things to Consider</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, sint earum commodi maxime ab error, expedita similique quo voluptas obcaecati vero, labore fugiat saepe laudantium iste facilis odit ipsum! Possimus?</p>
+      <h1>Things to Consider</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, sint earum commodi maxime ab error, expedita similique quo voluptas obcaecati vero, labore fugiat saepe laudantium iste facilis odit ipsum! Possimus?</p>
     </div>
   </section>
-
+  
   <section id="HelpfulLinks" class="div_Section">
     <div class=" glass-morphism">
-        <h1>Helpful Links</h1>
+      <h1>Helpful Links</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate modi minima voluptatum necessitatibus sint blanditiis praesentium! Veritatis inventore hic, at qui beatae nesciunt obcaecati saepe fuga, eligendi dignissimos facere quae.</p>
   
-  </section>
-  </main>
-
-
-
-
-    
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      </section>
+</main>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
