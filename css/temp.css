@@ -26,6 +26,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 50vh;
+  padding: 20px;
 }
 
 .glass-morphism {
@@ -220,6 +221,8 @@ body {
   width: 10px;
   height: 10px;
 }
+
+/* Post-Flight boxes */
 #infoShutdown {
   display: none;
   border: 1px solid black;
@@ -242,6 +245,36 @@ body {
   margin-bottom: 20px;
 }
 #infoDocumentation {
+  display: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Considerations boxes */
+#infoWeather {
+  display: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#infoEmergency {
+  display: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#infoFitness {
+  display: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#infoCompliance {
   display: none;
   border: 1px solid black;
   border-radius: 10px;
