@@ -113,9 +113,10 @@ function showPrePlaneInside() {
     x.style.display = "block";
   }
 }
+
 function showAircraftMaintenance() {
   var x = document.getElementById("AircraftMaintenance");
-  var y = document.getElementById("arrowImgInside");
+  var y = document.getElementById("arrowImgMaintenance");
   if (x.style.display === "block") {
     y.style.rotate = "360deg";
     x.style.display = "none";
@@ -126,7 +127,7 @@ function showAircraftMaintenance() {
 }
 function showFatigueFailure() {
   var x = document.getElementById("fatigueFailure");
-  var y = document.getElementById("arrowImgInside");
+  var y = document.getElementById("arrowImgFatigue");
   if (x.style.display === "block") {
     y.style.rotate = "360deg";
     x.style.display = "none";
@@ -137,7 +138,7 @@ function showFatigueFailure() {
 }
 function showHumanError() {
   var x = document.getElementById("HumanError");
-  var y = document.getElementById("arrowImgInside");
+  var y = document.getElementById("arrowImgError");
   if (x.style.display === "block") {
     y.style.rotate = "360deg";
     x.style.display = "none";
