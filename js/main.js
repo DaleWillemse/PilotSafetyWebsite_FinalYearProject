@@ -89,3 +89,27 @@ function showCompliance() {
     x.style.display = "block";
   }
 }
+
+function showPrePlaneOutside() {
+  var x = document.getElementById("preOutsidePlaneInfo");
+  var y = document.getElementById("arrowImgOutside");
+  if (x.style.display === "block") {
+    y.style.rotate = "360deg";
+    x.style.display = "none";
+  } else {
+    y.style.rotate = "90deg";
+    x.style.display = "block";
+  }
+}
+
+function showPrePlaneInside() {
+  var x = document.getElementById("preInsidePlaneInfo");
+  var y = document.getElementById("arrowImgInside");
+  if (x.style.display === "block") {
+    y.style.rotate = "360deg";
+    x.style.display = "none";
+  } else {
+    y.style.rotate = "90deg";
+    x.style.display = "block";
+  }
+}
