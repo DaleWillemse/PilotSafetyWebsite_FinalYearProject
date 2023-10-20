@@ -21,6 +21,12 @@ body {
   color: black;
 }
 
+.nav-item :hover {
+  border-radius: 10px;
+  background-color: pink;
+  transition: background-color 0.3s ease;
+}
+
 .div_Section {
   display: flex;
   justify-content: center;
@@ -299,14 +305,14 @@ body {
   margin-bottom: 20px;
 }
 
-#AircraftMaintenance{
+#AircraftMaintenance {
   display: none;
   border: 1px solid black;
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 20px;
 }
-#fatigueFailure{
+#fatigueFailure {
   display: none;
   border: 1px solid black;
   border-radius: 10px;
@@ -314,10 +320,14 @@ body {
   margin-bottom: 20px;
 }
 
-#HumanError{
+#HumanError {
   display: none;
   border: 1px solid black;
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 20px;
+}
+
+#references {
+  text-align: left;
 }
