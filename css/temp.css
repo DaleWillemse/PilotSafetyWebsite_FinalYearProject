@@ -298,3 +298,26 @@ body {
   padding: 10px;
   margin-bottom: 20px;
 }
+
+#AircraftMaintenance{
+  display: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#fatigueFailure{
+  display: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#HumanError{
+  display: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
